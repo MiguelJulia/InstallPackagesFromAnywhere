@@ -41,7 +41,7 @@ remotes::install_github("MiguelJulia/InstallPackagesFromAnywhere")
 Basic example
 
 ```r
-library(installPackagesAnywhere)
+library(InstallPackagesFromAnywhere)
 
 packages <- c("ggplot2", "DESeq2", "SeuratDisk", "unknownPackage")
 
