@@ -1,4 +1,4 @@
-# installPackagesAnywhere
+# InstallPackagesFromAnywhere
 
 ---
 
@@ -31,7 +31,7 @@ You can install this package directly from GitHub:
 
 ```r
 install.packages("remotes")
-remotes::install_github("MiguelJulia/installPackagesAnywhere")
+remotes::install_github("MiguelJulia/InstallPackagesFromAnywhere")
 ```
 
 ---
