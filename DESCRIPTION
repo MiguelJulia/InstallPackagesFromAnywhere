@@ -1,4 +1,4 @@
-Package: installPackagesAnywhere
+Package: InstallPackagesFromAnywhere
 Type: Package
 Title: Install R Packages from CRAN, Bioconductor, or GitHub
 Version: 0.1.0
@@ -14,5 +14,5 @@ Imports:
     jsonlite
 Roxygen: list(markdown = TRUE)
 Config/roxygen2/version: 8.0.0
-URL: https://github.com/MiguelJulia/installPackagesAnywhere
-BugReports: https://github.com/MiguelJulia/installPackagesAnywhere/issues
+URL: https://github.com/MiguelJulia/InstallPackagesFromAnywhere
+BugReports: https://github.com/MiguelJulia/InstallPackagesFromAnywhere/issues
