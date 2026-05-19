@@ -1,11 +1,8 @@
----
-title: "README"
-output: html_document
----
-
 # installPackagesAnywhere
 
-🚀 Install R packages from **CRAN**, **Bioconductor**, or **GitHub** automatically.
+---
+
+## 🚀 Install R packages from **CRAN**, **Bioconductor**, or **GitHub** automatically.
 
 This package provides a convenient function that attempts to install R packages from multiple sources in a smart order:
 
@@ -78,15 +75,19 @@ missing <- install.packages.from.anywhere(
 Arguments:
 
 - `packages`
+
     Character vector of package names to install
 
 - `github_map` (optional)
+
     Named character vector mapping package names to GitHub repositories ("owner/repo")
 
 - `update` (default = FALSE)
+
     Whether to update dependencies when installing from Bioconductor
 
 - `verbose` (default = TRUE)
+
     Whether to print progress messages
 
 ---
@@ -100,27 +101,22 @@ The function returns a list of packages that could not be installed from any sou
 ## ⚠️ Notes
 
 GitHub auto-search uses heuristics and may not always find the correct repository
+
 For reproducibility, it is recommended to define github_map for critical packages
+
 GitHub API requests are subject to rate limits (60 requests/hour without authentication)
 
 ---
 
 ## 🔮 Future Improvements
 
-GitHub token support to avoid API limits
-Parallel installation
-Improved repository validation
-CRAN submission
+- GitHub token support to avoid API limits
 
----
+- Parallel installation
 
-## 👤 Author
+- Improved repository validation
 
-MiguelJulia
+- CRAN submission
 
----
 
-## 📄 License
-
-MIT License
 
